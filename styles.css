@@ -1,0 +1,28 @@
+body {
+    background-image: url("./images/img_1.jpg");
+    background-size: cover;
+}
+
+.card {
+    margin-top: 15%;
+    margin-left: 25%;
+    width: 50%;
+    padding: 5%;
+    text-align: center;
+    /* position: relative; */
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-image: none;
+        background-color: black;
+    }
+    .card {
+        /* margin: auto; */
+        margin-top: 8%;
+        margin-left: 8%;
+        width: 80%;
+        padding: 5%;
+        text-align: center;
+    }
+}
